@@ -43,7 +43,7 @@ void sendSMS(String message)
 {
   SIM900.print("AT+CMGF=1\r");                     // AT command to send SMS message
   delay(1000); 
-  SIM900.println("AT + CMGS = \"+6285155402287\"");  // recipient's mobile number, in international format
+  SIM900.println("AT + CMGS = \"+628571144226791919\"");  // recipient's mobile number, in international format
   delay(1000);
   SIM900.println(message);                         // message to send
   delay(1000);
